@@ -6,19 +6,19 @@ research prototypes for DARPA INGOTS with NARF Industries and Dartmouth's LISP
 Lab, and completed three theses spanning an AI-native DAW, neural audio
 restoration, and music composition and production.
 
-My world sits where music, machine learning, signal processing, and product
-engineering meet. I care about systems that are useful beyond a demo: clear
+My work centers on music, machine learning, signal processing, and product
+engineering. I care about systems that are useful beyond a demo: clear
 evaluation, honest limitations, human review where it matters, and documentation
 that lets another engineer reproduce the result.
 
 ## Selected work
 
 - **[MODULO](https://takakhoo.com)** — an AI-native desktop music workstation developed as my M.S. thesis and product research platform.
-- **[Automatic music mastering](https://github.com/takakhoo/Automatic-Music-Mastering-Using-Deep-Learning)** — waveform and neural-codec experiments for learned music mastering.
-- **[DataGo](https://github.com/takakhoo/DataGo_RAG_BeatingGoogle_AlphaGo)** — a research prototype that augments KataGo search with selective retrieval and cached deep analyses.
+- **[Automatic music mastering](https://github.com/takakhoo/neural-audio-restoration)** — waveform and neural-codec experiments for learned music mastering.
+- **[DataGo](https://github.com/takakhoo/datago-retrieval-search)** — a research prototype that augments KataGo search with selective retrieval and cached deep analyses.
 - **[Federated ASR gradient inversion](https://github.com/takakhoo/federated-asr-gradient-inversion)** — CTC-aware reconstruction research for long-form speech, with the public baseline, recorded metrics, and paper-linked methodology.
-- **[Polymarket Agent](https://github.com/takakhoo/Polymarket_Agent)** — human-reviewed evidence discovery and monitoring for prediction-market research.
-- **[Transformer melody generation](https://github.com/takakhoo/Transformer-Melody-Generation)** — a readable TensorFlow encoder–decoder Transformer for symbolic music generation.
+- **[Prediction-market research agent](https://github.com/takakhoo/prediction-market-research-agent)** — human-reviewed evidence discovery and monitoring for prediction-market research.
+- **[Transformer melody generation](https://github.com/takakhoo/transformer-melody-generation)** — a readable TensorFlow encoder–decoder Transformer for symbolic music generation.
 
 ## Engineering focus
 
