@@ -1,8 +1,15 @@
 # Taka Khoo
 
-AI and product engineer building creative tools, applied machine-learning systems, and production software. I hold an M.S. in Engineering Sciences and two honors A.B. degrees from Dartmouth, where my work combined audio, signal processing, human–AI interaction, and reproducible experimentation.
+AI and product engineer building creative tools, applied machine-learning systems,
+and production software. I have shipped music products used at scale, built
+research prototypes for DARPA INGOTS with NARF Industries and Dartmouth's LISP
+Lab, and completed three theses spanning an AI-native DAW, neural audio
+restoration, and music composition and production.
 
-I care about systems that are useful outside a demo: clear evaluation, honest limitations, typed interfaces, human review where it matters, and documentation that lets another engineer reproduce the result.
+My world sits where music, machine learning, signal processing, and product
+engineering meet. I care about systems that are useful beyond a demo: clear
+evaluation, honest limitations, human review where it matters, and documentation
+that lets another engineer reproduce the result.
 
 ## Selected work
 
