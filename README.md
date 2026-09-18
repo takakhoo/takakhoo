@@ -1,5 +1,7 @@
 # Taka Khoo
 
+**[Résumé (PDF)](resume/Taka_Khoo_Resume.pdf)** · **[Portfolio](https://takakhoo.com)** · [LinkedIn](https://www.linkedin.com/in/takakhoo/)
+
 AI and product engineer building creative tools, applied machine-learning systems,
 and production software. I have shipped music products used at scale, built
 research prototypes for DARPA INGOTS with NARF Industries and Dartmouth's LISP
