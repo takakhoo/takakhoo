@@ -17,7 +17,7 @@ that lets another engineer reproduce the result.
 
 - **[MODULO](https://takakhoo.com)** — an AI-native desktop music workstation developed as my M.S. thesis and product research platform.
 - **[Audio Sliders](https://github.com/takakhoo/audio-diffusion-control)**: slider controls for text-to-music diffusion. Small LoRAs on ACE-Step 1.5 and Stable Audio Open that move the mood, harmony, groove, or brightness of a generated piece, each scored against measured audio descriptors and a music-quality model.
-- **[Automatic music mastering](https://github.com/takakhoo/neural-audio-restoration)** — waveform and neural-codec experiments for learned music mastering.
+- **[Lacquer](https://github.com/takakhoo/lacquer)**: automatic restoration and mastering for finished mixes. DSP echo removal, a fine-tuned band-split transformer for reverb, a decision layer that reports what it changed, and a full log of what worked and what did not. Successor to my [honors thesis](https://github.com/takakhoo/neural-audio-restoration) on token-based restoration.
 - **[DataGo](https://github.com/takakhoo/datago-retrieval-search)** — retrieval-augmented search research with runnable cosine-retrieval and adversarial-tree diagnostics; full Go integration remains unfinished.
 - **[Federated ASR gradient inversion](https://github.com/takakhoo/federated-asr-gradient-inversion)** — CTC-aware reconstruction research, with a reproducible synthetic privacy diagnostic and explicitly documented full-speech requirements.
 - **[Prediction-market research agent](https://github.com/takakhoo/prediction-market-research-agent)** — human-reviewed evidence discovery and monitoring for prediction-market research.
