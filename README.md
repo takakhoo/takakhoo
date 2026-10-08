@@ -21,7 +21,7 @@ engineering. I care about systems that are useful beyond a demo: clear
 evaluation, honest limitations, human review where it matters, and documentation
 that lets another engineer reproduce the result.
 
-## Five papers from the last two weeks
+## Featured work
 
 Each one has public code, saved results, and a PDF you can read now. Click a card for the paper.
 
