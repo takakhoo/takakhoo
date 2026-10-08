@@ -23,7 +23,7 @@ that lets another engineer reproduce the result.
 
 ## Featured work
 
-Each one has public code, saved results, and a PDF you can read now. Click a card for the paper.
+Each one has public code, saved results, and a manuscript you can read now (in preparation, not yet peer reviewed). Click a card for the paper.
 
 <table cellspacing="16" cellpadding="8">
   <tr>
