@@ -83,7 +83,7 @@ Each one has public code, saved results, and a PDF you can read now. Click a car
   </tr>
 </table>
 
-Hear the sliders: <a href="https://takakhoo.github.io/audio-diffusion-control/">Audio Sliders demo</a>. Hear the attack: <a href="https://takakhoo.github.io/unsplice/">Unsplice players</a>. Both also run on <a href="https://takakhoo.com/#work">takakhoo.com</a>.
+Hear the sliders: <a href="https://takakhoo.github.io/audio-diffusion-control/">Audio Sliders demo</a>. Hear the attack: <a href="https://takakhoo.github.io/unsplice/">Unsplice players</a>. Every demo is also playable in the <a href="https://takakhoo.com/library">interactive library on takakhoo.com</a>.
 
 ## Selected work
 
