@@ -28,6 +28,20 @@ Each one has public code, saved results, and a PDF you can read now. Click a car
 <table cellspacing="16" cellpadding="8">
   <tr>
     <td width="50%" valign="top">
+      <a href="https://takakhoo.com/docs/belief-band-paper.pdf"><img src="assets/papers/belief-band.png" alt="Planning Through Regimes: a century of real-time evidence and a cube-root law for regime timing" width="100%"></a>
+      <b>Planning Through Regimes</b> · <a href="https://takakhoo.com/docs/belief-band-paper.pdf">paper</a> · <a href="https://github.com/takakhoo/belief-band">code</a> · <a href="https://takakhoo.com/regimes">explorer</a><br>
+      <sub>Regime switching tested in strict real time since 1926: the published edges come from look-ahead, and the best recent jump model fails outside its sample. A POMDP with holdings in the state gives a cube-root no-trade band that matches dynamic programming within 2% and survives real trading costs.</sub>
+      <br><br>
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://takakhoo.com/docs/transposed-twins-paper.pdf"><img src="assets/papers/transposed-twins.png" alt="Transposed Twins: benchmark leakage and memorization in symbolic melody models" width="100%"></a>
+      <b>Transposed Twins</b> · <a href="https://takakhoo.com/docs/transposed-twins-paper.pdf">paper</a> · <a href="https://github.com/takakhoo/transformer-melody-generation">code</a> · <a href="https://takakhoo.com/melodies">listen</a><br>
+      <sub>A transposition-proof twin search over eight melody corpora: 36% of the JSB Chorales test set repeats a training soprano, and half of a random PDMX split would. Retraining without the twins pays a 4-gram 0.55 nats per note against 0.01 to 0.06 for transformers, enough to reverse the ranking.</sub>
+      <br><br>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
       <a href="https://takakhoo.com/docs/lacquer-paper.pdf"><img src="assets/papers/lacquer.png" alt="Lacquer: deciding what to fix in a finished mix" width="100%"></a>
       <b>Lacquer</b> · <a href="https://takakhoo.com/docs/lacquer-paper.pdf">paper</a> · <a href="https://github.com/takakhoo/lacquer">code</a> · <a href="https://takakhoo.com/lacquer">explorer</a><br>
       <sub>Measure first, then fix. Sparse declipping, cepstral echo removal (+16.4 dB), a band-split transformer for reverb (+5.9 dB where four released models gain at most 0.7 dB), and mastering held to the norms of 103,838 released tracks.</sub>
