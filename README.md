@@ -1,11 +1,19 @@
-# Taka Khoo
+<p align="center">
+  <img src="assets/header.svg" width="100%" alt="Taka Khoo. Engineer, researcher, musician. Creative software, audio ML, and research systems.">
+</p>
 
-**[Résumé (PDF)](resume/Taka_Khoo_Resume.pdf)** · **[Runnable experiments & results](EXPERIMENTS.md)** · **[Portfolio](https://takakhoo.com)** · [LinkedIn](https://www.linkedin.com/in/takakhoo/)
+<p align="center">
+  <a href="resume/Taka_Khoo_Resume.pdf"><b>Résumé (PDF)</b></a> ·
+  <a href="EXPERIMENTS.md"><b>Runnable experiments &amp; results</b></a> ·
+  <a href="https://takakhoo.com"><b>Portfolio</b></a> ·
+  <a href="https://takakhoo.com/library">Library</a> ·
+  <a href="https://www.linkedin.com/in/takakhoo/">LinkedIn</a>
+</p>
 
-AI and product engineer building creative tools, applied machine-learning systems,
-and production software. I have shipped music products used at scale, built
-research prototypes for DARPA INGOTS with NARF Industries and Dartmouth's LISP
-Lab, and completed theses spanning an AI-native DAW, neural audio
+AI and product engineer building creative tools, applied machine-learning
+systems, and production software. I have shipped music products used at scale,
+built research prototypes for DARPA INGOTS with NARF Industries and Dartmouth's
+LISP Lab, and completed theses spanning an AI-native DAW, neural audio
 restoration, and music composition and production.
 
 My work centers on music, machine learning, signal processing, and product
@@ -13,27 +21,91 @@ engineering. I care about systems that are useful beyond a demo: clear
 evaluation, honest limitations, human review where it matters, and documentation
 that lets another engineer reproduce the result.
 
+## Five papers from the last two weeks
+
+Each one has public code, saved results, and a PDF you can read now. Click a card for the paper.
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://takakhoo.com/docs/lacquer-paper.pdf"><img src="assets/papers/lacquer.png" alt="Lacquer: deciding what to fix in a finished mix" width="100%"></a>
+      <b>Lacquer</b> · <a href="https://takakhoo.com/docs/lacquer-paper.pdf">paper</a> · <a href="https://github.com/takakhoo/lacquer">code</a> · <a href="https://takakhoo.com/lacquer">explorer</a><br>
+      <sub>Measure first, then fix. Sparse declipping, cepstral echo removal (+16.4 dB), a band-split transformer for reverb (+5.9 dB where four released models gain at most 0.7 dB), and mastering held to the norms of 103,838 released tracks.</sub>
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://takakhoo.com/docs/unsplice-paper.pdf"><img src="assets/papers/unsplice.png" alt="Unsplice: exact speech recovery from federated ASR updates" width="100%"></a>
+      <b>Unsplice</b> · <a href="https://takakhoo.com/docs/unsplice-paper.pdf">paper</a> · <a href="https://github.com/takakhoo/unsplice">code</a> · <a href="https://takakhoo.github.io/unsplice/">listen</a><br>
+      <sub>One federated update from a speech recognizer gives back the client's audio in closed form: 98.5% of 1,417 LibriSpeech utterances, sequential decoding to 35 s, no transcript and no optimisation. Whisper reads the result at 3.8% WER.</sub>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://takakhoo.com/docs/mikiri-paper.pdf"><img src="assets/papers/mikiri.png" alt="Mikiri: knowing when a frozen Go engine has searched enough" width="100%"></a>
+      <b>Mikiri</b> · <a href="https://takakhoo.com/docs/mikiri-paper.pdf">paper</a> · <a href="https://github.com/takakhoo/mikiri-beats-katago">code</a><br>
+      <sub>A learned stopping rule and an exact search memory around a frozen KataGo. At the same mean visits it scores 78.8% over 1,000 games (+228 Elo), ahead of ten published stopping rules re-implemented on the same engine.</sub>
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://takakhoo.com/docs/audio-sliders-paper.pdf"><img src="assets/papers/audio-sliders.png" alt="Audio Sliders: measuring what a slider does to music" width="100%"></a>
+      <b>Audio Sliders</b> · <a href="https://takakhoo.com/docs/audio-sliders-paper.pdf">paper</a> · <a href="https://github.com/takakhoo/audio-diffusion-control">code</a> · <a href="https://takakhoo.github.io/audio-diffusion-control/">live demo</a> · <a href="https://huggingface.co/takakhoo/audio-sliders">weights</a><br>
+      <sub>LoRA sliders on ACE-Step 1.5 and Stable Audio Open, each scored by measured audio descriptors and music-quality models. The newer axes were found in 14,985 real recordings rather than named in advance.</sub>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://takakhoo.com/docs/shrinking-edge-paper.pdf"><img src="assets/papers/shrinking-edge.png" alt="The Shrinking Edge: what survives a real fill" width="100%"></a>
+      <b>The Shrinking Edge</b> · <a href="https://takakhoo.com/docs/shrinking-edge-paper.pdf">paper</a> · <a href="https://github.com/takakhoo/prediction-market-research-agent">code</a><br>
+      <sub>1,009,373 resolved Polymarket markets and 23.7 million reconstructed fills, sent down a ladder of controls. Most claimed mispricing is measurement error; two effects survive, and one is fading.</sub>
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://modulomusic.com"><img src="https://takakhoo.com/images/modulo/studio-session.png" alt="MODULO studio session" width="100%"></a>
+      <b>MODULO</b> · <a href="https://modulomusic.com">modulomusic.com</a> · <a href="https://takakhoo.com/docs/modulo-ms-thesis.pdf">thesis</a> · <a href="https://takakhoo.com/docs/modulo-paper.pdf">user study</a><br>
+      <sub>An AI-native music workstation heading to release: native Mac studio in C++ on JUCE and Tracktion, a SwiftUI iOS companion on TestFlight, and a FastAPI + Postgres backend on Render and Supabase with Stripe billing and Sign in with Apple.</sub>
+    </td>
+  </tr>
+</table>
+
+## Watch them run
+
+<table>
+  <tr>
+    <td width="34%" valign="top">
+      <a href="https://github.com/takakhoo/lacquer"><img src="assets/demos/lacquer-restore.gif" alt="Lacquer restoring a damaged mix, stage by stage" width="100%"></a>
+      <sub><b>Lacquer</b> restoring a damaged mix: echo located and removed, reverb measured and left alone when it is music, gain ridden by a learned controller. <a href="https://takakhoo.com/lacquer">Try the decision explorer</a>.</sub>
+    </td>
+    <td width="33%" valign="top">
+      <a href="https://github.com/takakhoo/mikiri-beats-katago"><img src="assets/demos/mikiri-game.gif" alt="Mikiri playing KataGo" width="100%"></a>
+      <sub><b>Mikiri</b> as Black against KataGo: visits per move, memory hits, and its own estimate of the game.</sub>
+    </td>
+    <td width="33%" valign="top">
+      <a href="https://github.com/takakhoo/prediction-market-research-agent"><img src="assets/demos/shrinking-edge-demo.gif" alt="Option model value against Polymarket fills" width="100%"></a>
+      <sub><b>The Shrinking Edge</b>: a textbook digital-option formula on public spot data tracks Polymarket fills on a Bitcoin threshold contract.</sub>
+    </td>
+  </tr>
+</table>
+
+Hear the sliders: <a href="https://takakhoo.github.io/audio-diffusion-control/">Audio Sliders demo</a>. Hear the attack: <a href="https://takakhoo.github.io/unsplice/">Unsplice players</a>. Both also run on <a href="https://takakhoo.com/#work">takakhoo.com</a>.
+
 ## Selected work
 
-- **[MODULO](https://takakhoo.com)** — an AI-native desktop music workstation developed as my M.S. thesis and product research platform.
-- **[Audio Sliders](https://github.com/takakhoo/audio-diffusion-control)**: slider controls for text-to-music diffusion ([live demo](https://takakhoo.github.io/audio-diffusion-control/), [weights on Hugging Face](https://huggingface.co/takakhoo/audio-sliders)). Small LoRAs on ACE-Step 1.5 and Stable Audio Open that move the mood, harmony, groove, or brightness of a generated piece, each scored against measured audio descriptors and two music-quality models. The newer sliders run along axes found in 15,000 real recordings (arousal, valence, electronic to jazz) instead of axes someone named.
-- **[Lacquer](https://github.com/takakhoo/lacquer)**: automatic restoration and mastering for finished mixes. DSP echo removal, a fine-tuned band-split transformer for reverb, a decision layer that reports what it changed, and a full log of what worked and what did not. Successor to my [honors thesis](https://github.com/takakhoo/neural-audio-restoration) on token-based restoration.
-- **[Mikiri](https://github.com/takakhoo/mikiri-beats-katago)**: a learned stopping rule that beats KataGo, the strongest open-source Go engine in the AlphaGo line, using KataGo's own network. It decides move by move when the search has seen enough, and at the same search budget it wins 79% of the points over 1,000 games (+228 Elo). Successor to DataGo.
-- **[Unsplice](https://github.com/takakhoo/unsplice)**: exact recovery of speech from federated ASR updates. One gradient from a speech recognizer gives back the client's features in closed form (98.5% of 1,417 LibriSpeech utterances up to 6.2 s, sequential decoding up to 35 s), with no transcript and no optimisation; Whisper reads the reconstructed audio at 3.8% WER. Replaces my earlier [gradient-matching attack](https://github.com/takakhoo/federated-asr-gradient-inversion).
-- **[Prediction-market research agent](https://github.com/takakhoo/prediction-market-research-agent)** — human-reviewed evidence discovery and monitoring for prediction-market research.
-- **[Transformer melody generation](https://github.com/takakhoo/transformer-melody-generation)** — a readable TensorFlow encoder–decoder Transformer for symbolic music generation.
+- **[MODULO](https://modulomusic.com)**: an AI-native desktop music workstation developed as my M.S. thesis and carried toward release. Native Mac app in C++ on JUCE and Tracktion with VST/AU hosting; SwiftUI iOS companion on TestFlight (StoreKit, Sign in with Apple, background audio); FastAPI and PostgreSQL backend on Render and Supabase; Stripe subscriptions and token wallet; live checkout, paid generation, and refund verified end to end.
+- **[Lacquer](https://github.com/takakhoo/lacquer)**: automatic restoration and mastering for finished mixes. DSP where the answer is exact, a fine-tuned band-split transformer where a prior is needed, and the measured norms of released music for everything else. Successor to my [honors thesis](https://github.com/takakhoo/neural-audio-restoration) on token-based restoration.
+- **[Unsplice](https://github.com/takakhoo/unsplice)**: exact recovery of speech from federated ASR updates. Replaces my earlier [gradient-matching attack](https://github.com/takakhoo/federated-asr-gradient-inversion).
+- **[Mikiri](https://github.com/takakhoo/mikiri-beats-katago)**: a learned stopping rule that beats KataGo using KataGo's own network. Successor to DataGo.
+- **[Audio Sliders](https://github.com/takakhoo/audio-diffusion-control)**: slider controls for text-to-music diffusion ([live demo](https://takakhoo.github.io/audio-diffusion-control/), [weights](https://huggingface.co/takakhoo/audio-sliders)).
+- **[Prediction-market research](https://github.com/takakhoo/prediction-market-research-agent)**: The Shrinking Edge, plus a human-reviewed evidence discovery and monitoring agent with strict probability contracts.
+- **[Transformer melody generation](https://github.com/takakhoo/transformer-melody-generation)**: a readable TensorFlow encoder-decoder Transformer for symbolic music.
 
 For saved plots, MIDI/audio, baselines, test runs and honest experiment limits,
-start with the [22-project reproducibility index](EXPERIMENTS.md).
+start with the [24-project reproducibility index](EXPERIMENTS.md).
 
 ## Engineering focus
 
-`Python` · `TypeScript` · `C++` · `PyTorch` · `React` · `Node.js` · `PostgreSQL` · `Docker` · `GCP` · `JUCE` · `DSP`
+`Python` · `C++` · `Swift / SwiftUI` · `TypeScript` · `Objective-C++` · `CMake` · `PyTorch` · `TensorFlow` · `React / Next.js` · `Node.js` · `FastAPI` · `PostgreSQL / Supabase` · `Stripe` · `Docker` · `GCP` · `Render` · `Vercel` · `JUCE` · `Tracktion Engine` · `DSP` · `LaTeX`
 
-My recent work includes real-time collaborative products, audio-model evaluation, LLM tool and agent systems, and graduate machine-learning instruction.
+Recent work includes native Mac and iOS apps, real-time collaborative products, audio-model evaluation, LLM tool and agent systems, billing and provider backends, and graduate machine-learning instruction.
 
 ## Elsewhere
 
-- Portfolio and writing: [takakhoo.com](https://takakhoo.com)
+- Portfolio, papers, and music: [takakhoo.com](https://takakhoo.com)
 - LinkedIn: [linkedin.com/in/takakhoo](https://www.linkedin.com/in/takakhoo)
-- Research paper: [Reconstructing Long-Form Speech from Federated ASR Gradients](https://takakhoo.com/docs/federated-asr-gradient-paper.pdf)
+- MODULO: [modulomusic.com](https://modulomusic.com)
