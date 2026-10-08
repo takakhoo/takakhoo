@@ -64,7 +64,7 @@ Each one has public code, saved results, and a PDF you can read now. Click a car
     <td width="50%" valign="top">
       <a href="https://modulomusic.com"><img src="https://takakhoo.com/images/modulo/studio-session.png" alt="MODULO studio session" width="100%"></a>
       <b>MODULO</b> · <a href="https://modulomusic.com">modulomusic.com</a> · <a href="https://takakhoo.com/docs/modulo-ms-thesis.pdf">thesis</a> · <a href="https://takakhoo.com/docs/modulo-paper.pdf">user study</a><br>
-      <sub>An AI-native music workstation heading to release: native Mac studio in C++ on JUCE and Tracktion, a SwiftUI iOS companion on TestFlight, and a FastAPI + Postgres backend on Render and Supabase with Stripe billing and Sign in with Apple.</sub>
+      <sub>An AI-native music workstation heading to release: native Mac studio in C++ on JUCE and Tracktion, a SwiftUI iOS companion on TestFlight, and a FastAPI + Postgres backend on Render, Supabase, and Cloudflare with Stripe billing and Sign in with Apple.</sub>
       <br><br>
     </td>
   </tr>
@@ -96,7 +96,7 @@ Hear the sliders: <a href="https://takakhoo.github.io/audio-diffusion-control/">
 
 ## Engineering focus
 
-`Python` · `C++` · `Swift / SwiftUI` · `TypeScript` · `Objective-C++` · `CMake` · `PyTorch` · `TensorFlow` · `React / Next.js` · `Node.js` · `FastAPI` · `PostgreSQL / Supabase` · `Stripe` · `Docker` · `GCP` · `Render` · `Vercel` · `JUCE` · `Tracktion Engine` · `DSP` · `LaTeX`
+`Python` · `C++` · `Swift / SwiftUI` · `TypeScript` · `Objective-C++` · `CMake` · `PyTorch` · `TensorFlow` · `React / Next.js` · `Node.js` · `FastAPI` · `PostgreSQL / Supabase / Neon` · `MongoDB` · `Stripe` · `Cloudflare` · `Docker` · `GCP` · `Render` · `Vercel` · `JUCE` · `Tracktion Engine` · `DSP` · `LaTeX`
 
 Recent work includes native Mac and iOS apps, real-time collaborative products, audio-model evaluation, LLM tool and agent systems, billing and provider backends, and graduate machine-learning instruction.
 
